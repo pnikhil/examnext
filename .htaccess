@@ -1,0 +1,8 @@
+RewriteCond %{REQUEST_METHOD} GET [NC]
+RewriteCond %{HTTP_HOST} ^examnext\.com$ [NC]
+RewriteRule ^(.*)$ http://www.examnext.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^(.*)$ index.php?/$1 [L]
