@@ -1,0 +1,50 @@
+.box-sty {
+    background: none repeat scroll 0 0 whitesmoke;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px 5px;
+    padding: 0px;
+    width: auto; text-align: center;
+}
+.box-sty-name {
+	border-bottom: 1px solid #ccc;
+    float: left;
+    padding: 10px;
+    width: 100%; background: #fff;
+}
+.box-sty:hover{
+	box-shadow: 0px 0px 3px #a0a0a0; cursor: pointer;
+}
+time {
+  display: table;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+question {
+  display: table;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+free {
+    display: table;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 8px 0px;
+    padding: 8px; background: #56b349; color: #fff; 
+}
+.all-cat {
+    border: 0 none;
+    padding: 13px; background: whitesmoke;
+}
+.all-cat a {
+	color: #000;
+}
+
+.paid{
+	background: #e33d43; color: #fff;
+}
+.box-sty a{
+	color: #000;
+}

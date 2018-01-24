@@ -36,7 +36,7 @@
 
 // The following values will probably need to be changed.
 $db['default']['username'] = "techarta_diguser";
-$db['default']['password'] = "h!dens33k";
+$db['default']['password'] = "nickkvm";
 $db['default']['database'] = "techarta_dig";
 
 // The following values can probably stay the same.
